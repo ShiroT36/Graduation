@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Ensure the body takes up the full viewport height */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+/* Style the download button */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #25458d;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    max-width: 100%;
+}
+
+/* Add hover effect */
+button:hover {
+    background-color: #748fcd;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Add active state effect */
+button:active {
+    background-color: #25458d;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
